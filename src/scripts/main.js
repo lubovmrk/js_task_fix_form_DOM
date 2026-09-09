@@ -12,6 +12,6 @@ allInputs.forEach((input) => {
 
   label.classList.add('field-label');
   label.htmlFor = input.id;
-  label.textContent = input.name;
+  label.textContent = formattedName;
   input.parentElement.insertBefore(label, input);
 });
